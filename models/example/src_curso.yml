@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: sistema_curso     # Um apelido lógico para a sua fonte de dados
+    database: rcm-stg       # O seu Project ID no Google Cloud
+    schema: curso           # O seu Dataset no BigQuery
+    tables:
+      - name: categories
+      - name: customers
+      - name: employees
+      - name: orderdetails
+      - name: orders
+      - name: products
+      - name: shippers
+      - name: suppliers
+    
